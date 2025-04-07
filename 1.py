@@ -1,7 +1,7 @@
 best_score = 0
-score = int(input())  # Первый ввод до цикла
+score = int(input())
 while score != -1:
     if score > best_score:
         best_score = score
-    score = int(input())  # Следующий ввод в конце цикла
+    score = int(input())
 print(best_score)
